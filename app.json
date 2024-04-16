@@ -2,12 +2,12 @@
   "name": "asta-md",
   "description": "Simple WhatsApp Bot",
   "logo": "https://i.imgur.com/ZkBjWK2.jpg",
-  "keywords": "Asta-Md",
+  "keywords": "Sanga",
   
   "env": {
     "OWNER_NAME": {
       "description": "Name for Bot Owner",    
-      "value": "Astro",
+      "value": "Sanga",
       "required" :true
     },   
     "HEROKU_API_KEY": {
@@ -16,14 +16,14 @@
       "required" :true 
     },   
     "HEROKU_APP_NAME": {
-      "description": "Put Your Heroku App Name Here",
+      "description": "Put Your Heroku App Name Here",sangabot
       "value": "",
     "required" :true
     },
     "BOT_NAME": {
-      "description": " NAME FOR BOT",
+      "description": " NAME FOR BOT",Sanga
       "required" :false,    
-      "value": "𝘼𝙎𝙏𝘼 𝙈𝘿"
+      "value": "Sanga"
     }, 
     "PREFIX": {
       "description": "Enter your desired prefix for bot. you can set `all | . | .!*`",
@@ -31,10 +31,10 @@
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-      "value": "2348039607375"
+      "value": "917085345102"
     },
     "SESSION_ID": {
-      "description": "put your SESSION_ID here.",
+      "description": "put your SESSION_ID here.SESSION_13_39_04_16_eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiRURVRkQ5OWdpY2hoTE83WDdEQmF6azlOR2JaT3NKdjZaQXIxRVI1WVJuYz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiRkZYV0Fyem1zdGhVV3cwUlhHajd6RTgrRTk1ZXRrVHpxMzUreC9lTWpRdz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJzSmJwQ3o5U0pXK2RBSHdET1Niam1sS3RmVFZtVXpjNFBYUnhGbFB3R25nPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJHVUdpaVphU3duS0tIWS9oV1NpNTNkT0h2SENzcE1uRFprMWNTbCtBSEJJPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IldGa3doN0xPdUpHWVZYOEhVakVmQ2UzaHMxUlUrbUN1VkY5Um00a1FVVlk9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImM2blNwVE5xT3QzNHZGaW5yZGVxT29sY2FuS2RocVY5cllscHkzT2c5eVE9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoic0RTUEZ5VjVmL2NyWkdzRy9WVDBBKyswenVtTm50dmhwdTlkc2dtSngxaz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiNDJhNm1BVlY2SWhieFA5MmI1a1Z2NTZYR0ErQlNmZ0tjbWk2OW96L3ptZz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkZsaExBdGc4dlFKSzhuL0tmTVA5NzgyQUZjbGxTemJlbHJBcTl3OFdWZ3dNYXdQWTFJUGhQdWVvSDNmV1I1VExaV3ErUTlab3orS0U5Sk83MWI3eWd3PT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTgwLCJhZHZTZWNyZXRLZXkiOiJ3K212L0ZnTGJPb2laODNnTEc0N2RTQ281OUFxM2hQRG5NVWtXbkdQTnZJPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W3sia2V5Ijp7InJlbW90ZUppZCI6IjkxNzA4NTM0NTEwMkBzLndoYXRzYXBwLm5ldCIsImZyb21NZSI6dHJ1ZSwiaWQiOiI1NjI0OTkzNjI1RTZCODg1M0FGMTc2MDMwOTc2QjI1NyJ9LCJtZXNzYWdlVGltZXN0YW1wIjoxNzEzMjc0NzU4fV0sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjoxLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJpY2JwVjA2Y1RXSzNzaVl5MlgtMHdRIiwicGhvbmVJZCI6ImRhOWU2MWM1LWViMzUtNDFmYi1hMTNkLTE2OTUwYzY5NzhjNiIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCaWlqV0VHNEFUV1hqWnliZG14N0xmNFVYTDA9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQmo2S3BXVTVRY0thQlRrK2Z0a0VGd01FRFlFPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6Ik5KM1o5SDJRIiwibWUiOnsiaWQiOiI5MTcwODUzNDUxMDI6MzBAcy53aGF0c2FwcC5uZXQiLCJuYW1lIjoiQVNUUk8ifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ0p1SWd0MEZFSUQvK2JBR0dBRWdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6ImV2V0NZejJGU0RjSlpvbmVudk9mNlh6L05Wcy9BOTFXVjFxTlRyMGtEWGc9IiwiYWNjb3VudFNpZ25hdHVyZSI6InVpazlpRE51cGNsdkxXRUlQUWJEWGowZXZweFZaeENLb1NMS00xM2xKOXloV0dkWDUvcUxFd2trNHpsTjEzSW9Tb0x3WUVzVWIxY3N2RE9Jb1FlTEFRPT0iLCJkZXZpY2VTaWduYXR1cmUiOiJHYjlDckw2QXBMZ2NWZXBmcDRzMm85WWFGZHlkdi90ZDRra3I3b1FQdFFLeVBPc25TSGVxRGdUUVlRWDZxendZaFByd1d2c25XN0U3NEtSUjl4T1Bpdz09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjkxNzA4NTM0NTEwMjozMEBzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJYcjFnbU05aFVnM0NXYUozcDd6bitsOC96VmJQd1BkVmxkYWpVNjlKQTE0In19XSwicGxhdGZvcm0iOiJzbWJhIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzEzMjc0NzU1LCJteUFwcFN0YXRlS2V5SWQiOiJBQUFBQUxHLyJ9,
       "value": ""
   
     },
@@ -43,14 +43,14 @@
       "value": "private"
     },
     "USER_IMAGES": {
-      "description": "Image for bot",
+      "description": "Sanga",
       "required" :false,    
       "value": "https://i.imgur.com/DoPFyzc.jpg,https://i.imgur.com/YgdZA3l.jpg,https://i.imgur.com/K4IEW12.jpg,https://i.imgur.com/q5MAdYt.jpg,https://i.imgur.com/z20pSwu.jpg,https://i.imgur.com/Xp1b2vG.jpg,https://i.imgur.com/OQOH4Gn.jpeg,https://i.imgur.com/lIo3cM2.jpeg"
     }, 
     "TZ": {
       "description": "Put TIME_ZONE according to your location",
       "required" :false,    
-      "value": "Africa/Lagos"
+      "value": "India/Mizoram"
     },  
     "READ_COMMAND": {
       "description": " Read bot cmds",
@@ -74,7 +74,7 @@
     },
     "AUTO_READ_STATUS": {
       "description": "Fill the value true if you want bot view your Statuses.",
-      "required" :false,
+      "required" :true,
       "value": "true"
     }, 
     "MSGS_IN_LOG": {
@@ -109,16 +109,16 @@
     },
     "PACK_NAME": {
       "description": "Put Sticker Pack_Name.",
-      "value": "𝘼𝙎𝙏𝘼 𝙈𝘿",
+      "value": "Sanga",
       "required": false 
     },
     "PACK_AUTHER": {
-      "description": "Put Sticker Author_Name.",
+      "description": "Put Sticker Author_Name,Sanga,
       "value": "",
       "required": false 
     },
     "STACK": {
-      "description": "STACK NAME ",
+      "description": "Sanga ",
       "value": "",
       "required": false 
     },
